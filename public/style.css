@@ -1,0 +1,193 @@
+body,
+html {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  background-color: lavender;
+  display: flex;
+  flex-direction: row;
+  padding: 0 50px;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 992px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 15px 0;
+}
+
+.welcome-text {
+  font-weight: 600;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navigation-links {
+  align-self: flex-end;
+}
+
+.navbar ul {
+  list-style: none;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+
+.navbar ul li {
+  padding: 0 1rem;
+}
+
+.navbar ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar ul li a:hover {
+  color: darkslategrey;
+  text-decoration: underline;
+}
+
+.container {
+  position: relative;
+  margin: auto;
+  max-width: 992px;
+}
+
+.destinations-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.single-destination {
+  position: relative;
+  padding: 1rem;
+  border: 1px solid lavender;
+  margin-right: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.single-destination-heading {
+  margin: 10px 0;
+}
+
+.single-destination-price {
+  font-weight: medium;
+  margin-bottom: 10px;
+}
+
+.single-destination-button {
+  width: 100%;
+  padding: 0.6rem 0;
+  margin: 0.2rem 0;
+  border-radius: 20px;
+  background: white;
+  border: 1px solid lightgray;
+  padding: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+}
+
+.single-destination-image img {
+  width: 440px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* LOGIN PAGE */
+
+.form-container {
+  position: relative;
+  width: 600px;
+
+  margin: 2rem auto;
+}
+
+.form-heading {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.form-area {
+  background-color: lavender;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.form-field-area {
+  width: 300px;
+  margin: auto;
+}
+
+.input-label {
+  width: 150px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.form-field-area input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  width: 300px;
+  background: white;
+  border: 1px solid lightgray;
+  padding: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+}
+
+.form-error {
+  width: 300px;
+  margin: 1rem auto;
+  color: red;
+}
+
+.error-page {
+  margin-top: 20px;
+}
+
+.margin-auto {
+  margin: auto;
+  width: 300px;
+}
+
+.margin-bottom-1 {
+  margin-bottom: 1rem;
+}
+
+.margin-top-1 {
+  margin-top: 1rem;
+}

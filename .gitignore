@@ -1,0 +1,4 @@
+node_modules
+coverage
+public/bundle.js
+package-json.lock
