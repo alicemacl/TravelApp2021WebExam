@@ -6,8 +6,9 @@ I did not pay a lot attention to design, though the setup should be clean and un
 
 ## How to run
 
-* `npm i`
-* `npm start`
+1. `npm i`
+2. `npm run build`
+3. `npm start`
 
 ### Testuser
 
