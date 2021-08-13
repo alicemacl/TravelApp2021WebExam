@@ -56,17 +56,12 @@ Didn't quite reach my goal for coverage. I had some trouble with packages and ve
 
 If I would have had time, I would make the following improvements:
 
-### /server
-
 * Make another API for activities that communicates with destinations. And here the user could add to the API or add activities to destination while creating a new destination. 
-
-### /client
-
+* More error handling (remove all nullable values, status codes etc.)
 * Would make the file and folder structure a little more clean. 
 * Use styled-components and styled-system for easier access to styling on the go(for efficency)
 * More visual feedback to the user (for example, when login is successful, when a new destination is created/edited/deleted)
-
-### other
-
 * Better test coverage
 * More attention to UI
+
+`over and out`
