@@ -1,5 +1,7 @@
 # Project overview
 
+This is my attempt at Web and API exam, fall 2021.
+
 This application lets you, as a visitor, browse the different travel destinations available right now. As a logged in user, you are able to create new, delete or edit destinations.
 
 I did not pay a lot attention to design, though the setup should be clean and understandable. I've listed improvements at the bottom of the file. 
@@ -50,19 +52,5 @@ I did not pay a lot attention to design, though the setup should be clean and un
 * run `npm run test`
 
 * `32%`
-
-Didn't quite reach my goal for coverage. I had some trouble with packages and versions, which made the tests not complete for a while. Got to fix it but doesn't seem I master testing well yet. Always room for improvements.
-
-## Improvements overview
-
-If I would have had time, I would make the following improvements:
-
-* Make another API for activities that communicates with destinations. And here the user could add to the API or add activities to destination while creating a new destination. 
-* More error handling (remove all nullable values, status codes etc.)
-* Would make the file and folder structure a little more clean. 
-* Use styled-components and styled-system for easier access to styling on the go(for efficency)
-* More visual feedback to the user (for example, when login is successful, when a new destination is created/edited/deleted)
-* Better test coverage
-* More attention to UI
 
 `over and out`
